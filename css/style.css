@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+} 
+.html, body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    text-align:center;
+}
+.logo{
+    height:80px;
+    margin-top: -20px;
+}
+.nav-link {
+    color: black;
+}
+.navbar{
+    width:100%;
+    height: 50px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
+
+}
+.navbar ul li{
+    margin:10px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.navbar ul li .a:active{
+    color: rgb(244, 114, 67);
+    display: block;
+}
+.logo{
+    float:inline-start;
+    margin:20px;
+}
+.logo img{
+    height: 30px;
+}
+.header{
+    background-color: white;
+    width:100%;
+    height: 70px;
+}
+.bg-img{
+    background-image:url(../img/fresco-pizza-top.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    z-index: -1;
+}
+.bg-img::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index:1;
+    margin-top:70px;
+    height: 800px;
+}
+.bg-img h1{
+    color: white;
+    font-size: 140px;
+    text-shadow: 0 0 41px #000e14;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    animation-name: Fersco;
+    animation-duration: 2s; 
+    animation-delay:2s; 
+    animation-range: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes Fersco{
+    25%{te left:0px; top:200px;}
+}
+.img1{
+    float: initial;
+    padding-top: 100px;
+}
+.img2{
+    float: left;
+    margin-top: -150px;
+    padding: 80px;
+}
+.img3{  
+    float: right;
+    margin-top: -150px;
+    padding: 80px;
+
+}
+.bg-img h3{
+    color:rgb(244, 83, 25);
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 250;
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+}
+.bg-img p{
+    color: white;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.section-3{
+    background-image: url(../img/pic28-free-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index:-1;
+    background-position: center;
+    background-image: linear-gradient(white );
+}
+.info-text{
+    padding: 80px 20px;
+    margin: 20px;
+    text-align: center;
+    line-break:10px;
+    width: 33%;
+    height: 500px;
+}
+.info-text h5{
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    font-weight: 100;
+}
+.info-text h1{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em;
+    margin: 30px;
+}
+.info-text span{
+    font-size: 20px;
+    font-weight: 80;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+}
+.info-text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight:lighter;
+    color: gray;
+    margin: 20px;
+}
+.info-text button{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 14px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(244, 117, 70);
+    color: white;
+    font-size: 12px;
+}
+.info-img1{
+    width: 33%;
+    height: 500px;
+    margin: 80px 20px;
+}
+.info-img2{
+    background-image:url("../img/food-table-meet.jpg");
+    background-image: -moz-linear-gradient(to bottom ,black),url(../img/food-table-meet.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    height:500px;
+    width: 33%;
+    margin: 80px 20px;
+}
+.info-img2 h2{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em;
+    margin-top: 230px;
+    margin-left: -60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.info-img2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    color:white;
+    text-align: center;
+    margin-left: -40px;
+}
+.bg-white{
+   display: flex;
+}
+.textmain{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.textmain img{
+    margin: 40px;
+}
+.textmain h2{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em; 
+}
+.textmain h3{
+    font-size: 28px;
+    font-size: 1.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+    padding: 40px;
+}
+.textmain p{
+    color: gray;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 200;
+}
+.column1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 30px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.text1{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.text1 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.text1 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.text1 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.row img{
+height: 300px;
+width: 300px;
+margin-bottom: 30px;
+}
+.text2{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.text2 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.text2 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.text2 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.column2{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 30px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.text-1{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.text-1 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.text-1 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.text-1 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.text-2{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.text-2 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.text-2 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.text-2 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.column3{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 30px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.textt1{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.textt1 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.textt1 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.textt1 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.textt2{
+    width: 30%;
+    height: 300px;
+    background-color: #f9e1ce;
+    text-align: center;
+    margin: 30px;
+}
+.textt2 h2{
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+.textt2 p{
+    font-family: sans-serif;
+    font-weight:30;
+    color: #00151e;
+}
+.textt2 h3{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #000e14 solid thin ;
+    border-bottom: #000e14 solid thin;
+    border-width: 1.5px;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+}
+.row{
+    background-image: url(../img/dine-out.jpg);
+}
+.section-4{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    background-image: url(../img/pic34-free-img.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+    margin: 80px 0px;
+}
+.image h2{
+    color: white;
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    padding-top: 450px;
+}
+.textarea{
+    width: 50%;
+    text-align: center;
+    padding: 60px;
+    margin: 20px;
+}
+.textarea h4{
+    font-size: 22px;
+    font-size: 1.4666666666667rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    margin: 20px;
+}
+.textarea h2{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em;
+    margin: 20px;
+}
+.textarea h3{
+    font-size: 28px;
+    font-size: 1.8666666666667rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+    margin: 20px;
+}
+.textarea p{
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    margin: 20px;
+}
+.textarea button{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    font-size: 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: rgb(254, 139, 98);
+    border-color:rgb(254, 139, 98) ;
+}
+.section-5 img{
+    opacity: 0.3;
+}
+.section-5 h1{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em;
+    margin: 20px;
+}
+.avtar1{
+    width: 100%;
+    line-height: 20px;
+}
+.avtar1 img{
+    opacity: 1;
+    margin: 40px;
+}
+.avtar1 span{
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    padding: 30px;
+    margin: 40px;
+    line-height: 10px;
+    text-align:center;
+}
+.avtar1 p{
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    
+}
+.avtar2{
+    width: 100%;
+    line-height: 20px;
+}
+.avtar2 img{
+    opacity: 1;
+    margin: 40px;
+}
+.avtar2 span{
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    padding: 30px;
+    margin: 40px;
+    line-height: 10px;
+    text-align:center;
+}
+.avtar2 p{
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.avtar3{
+    width: 100%;
+    line-height: 20px;
+}
+.avtar3 img{
+    opacity: 1;
+    margin: 40px;
+}
+.avtar3 span{
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    padding: 20px;
+    margin: 40px;
+    line-height: 10px;
+    text-align:center;
+}
+.avtar3 p{
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: 15px;
+    margin: 20px;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.favicons p{
+    font-size: 20px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+}
+.favicons p{
+    font-size: 30px;
+    line-height: 1.2em;
+    font-family: 'Berkshire Swash', handwriting;
+    padding: 20px;
+    margin-top: 30px;
+}
+.icons{
+    font-size: 30px;
+    color:rgb(245, 116, 69);
+    margin-bottom:30px;
+}
+.footer-bg{
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+}
+.footer-bg{
+    background-image: url(../img/Prepare-dish-image.jpg);
+    height: 400px;
+    width: 100%;
+    color: #ffffff;
+}
+.footer-bg h2{
+    font-size: 43px;
+    font-size: 2.8666666666667rem;
+    font-weight: 400;
+    font-family: 'Berkshire Swash', handwriting;
+    line-height: 1.3em;
+    color: #ffffff;
+    padding: 20px;
+    
+}
+.footer-bg p{
+    font-size: 15px;
+    font-weight: 5px;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
